@@ -33,7 +33,7 @@ public class Program {
 Em uma aplicação, eventualmente pode ser pedido que o usuário
 informe algum valor de um enum. O valor digitado será um String,
 que precisará ser convertido para um enum.
-Para isso, basta utilizar o metodo "valueOf()". O valor digitado
+Para isso, basta utilizar o method "valueOf()". O valor digitado
 pelo usuário precisa ser igual a um dos valores do enum
 
 Exemplo:
