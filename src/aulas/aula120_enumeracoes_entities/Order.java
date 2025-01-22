@@ -1,5 +1,7 @@
 package aulas.aula120_enumeracoes_entities;
 
+import aulas.aula120_enumeracoes_entities.enums.OrderStatus;
+
 import java.util.Date;
 
 public class Order {
