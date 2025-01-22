@@ -1,7 +1,7 @@
 package aulas.aula120_enumeracoes;
 
 import aulas.aula120_enumeracoes_entities.Order;
-import aulas.aula120_enumeracoes_entities.enums.OrderStatus;
+import aulas.aula120_enumeracoes_entities.OrderStatus;
 
 import java.util.Date;
 import java.util.Scanner;

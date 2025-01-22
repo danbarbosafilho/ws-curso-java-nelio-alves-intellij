@@ -1,4 +1,4 @@
-package aulas.aula120_enumeracoes_entities.enums;
+package aulas.aula120_enumeracoes_entities;
 
 public enum OrderStatus {
 
