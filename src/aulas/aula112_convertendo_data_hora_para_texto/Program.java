@@ -20,7 +20,6 @@ public class Program {
         DateTimeFormatter fmt3 = DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm").withZone(ZoneId.systemDefault());
         // Metodo withZone. especifica o fuso horário, e o ZoneId.systemDefault() adiciona o fuso do PC do usuário
 
-
         // Três diferentes formas de imprimir o mesmo objeto para texto
         System.out.println("d04 = " + d04.format(fmt1));
         System.out.println("d04 = " + fmt1.format(d04));
