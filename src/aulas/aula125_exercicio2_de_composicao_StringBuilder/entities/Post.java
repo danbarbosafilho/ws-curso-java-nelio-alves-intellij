@@ -1,6 +1,5 @@
-package aulas.aula125_exercicio2_de_composicao.entities;
+package aulas.aula125_exercicio2_de_composicao_StringBuilder.entities;
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
@@ -20,7 +19,7 @@ public class Post {
 
     private final List<Comment> comments = new ArrayList<>(); // Lista já instanciada. Não irá ao Construtor
 
-    public Post(){
+    public Post() {
     }
 
     public Post(LocalDateTime moment, String title, String content, Integer likes) {
@@ -69,10 +68,12 @@ public class Post {
     // Não haverá setComment, pois a lista não poderá ser trocada,
     // mas apenas a mesma lista será manipulada. Por isso será
     // adicionado no lugar os métodos addComment e removeComment.
-    public void addComment(Comment comment){
+    public void addComment(Comment comment) {
         comments.add(comment);
 
-    }public void removeComment(Comment comment){
+    }
+
+    public void removeComment(Comment comment) {
         comments.remove(comment);
     }
 
@@ -85,7 +86,7 @@ public class Post {
         sb.append(moment.format(fmt1) + "\n");
         sb.append(content + "\n");
         sb.append("Comments: \n");
-        for(Comment x : comments){
+        for (Comment x : comments) {
             sb.append(x.getText() + "\n");
         }
 

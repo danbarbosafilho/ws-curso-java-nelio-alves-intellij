@@ -1,4 +1,4 @@
-package aulas.aulas131_upcasting_downcasting_sobrescrita_super_e_Override.entities;
+package aulas.aula131_upcasting_downcasting_sobrescrita_super_e_Override.entities;
 
 public class Account {
 

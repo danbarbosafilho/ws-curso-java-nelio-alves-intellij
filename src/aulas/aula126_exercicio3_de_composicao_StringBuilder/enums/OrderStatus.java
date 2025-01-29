@@ -1,4 +1,4 @@
-package aulas.aula126_exercicio3_de_composicao.enums;
+package aulas.aula126_exercicio3_de_composicao_StringBuilder.enums;
 
 public enum OrderStatus {
 

@@ -1,6 +1,6 @@
-package aulas.aula126_exercicio3_de_composicao.entities;
+package aulas.aula126_exercicio3_de_composicao_StringBuilder.entities;
 
-import aulas.aula126_exercicio3_de_composicao.enums.OrderStatus;
+import aulas.aula126_exercicio3_de_composicao_StringBuilder.enums.OrderStatus;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

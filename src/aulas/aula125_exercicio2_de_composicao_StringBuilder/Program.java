@@ -1,7 +1,7 @@
-package aulas.aula125_exercicio2_de_composicao;
+package aulas.aula125_exercicio2_de_composicao_StringBuilder;
 
-import aulas.aula125_exercicio2_de_composicao.entities.Comment;
-import aulas.aula125_exercicio2_de_composicao.entities.Post;
+import aulas.aula125_exercicio2_de_composicao_StringBuilder.entities.Comment;
+import aulas.aula125_exercicio2_de_composicao_StringBuilder.entities.Post;
 
 import java.time.LocalDateTime;
 

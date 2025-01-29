@@ -1,4 +1,4 @@
-package aulas.aula125_exercicio2_de_composicao.entities;
+package aulas.aula125_exercicio2_de_composicao_StringBuilder.entities;
 
 public class Comment {
 

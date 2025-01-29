@@ -1,10 +1,10 @@
-package aulas.aula126_exercicio3_de_composicao;
+package aulas.aula126_exercicio3_de_composicao_StringBuilder;
 
-import aulas.aula126_exercicio3_de_composicao.entities.Client;
-import aulas.aula126_exercicio3_de_composicao.entities.Order;
-import aulas.aula126_exercicio3_de_composicao.entities.OrderItem;
-import aulas.aula126_exercicio3_de_composicao.entities.Product;
-import aulas.aula126_exercicio3_de_composicao.enums.OrderStatus;
+import aulas.aula126_exercicio3_de_composicao_StringBuilder.entities.Client;
+import aulas.aula126_exercicio3_de_composicao_StringBuilder.entities.Order;
+import aulas.aula126_exercicio3_de_composicao_StringBuilder.entities.OrderItem;
+import aulas.aula126_exercicio3_de_composicao_StringBuilder.entities.Product;
+import aulas.aula126_exercicio3_de_composicao_StringBuilder.enums.OrderStatus;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
